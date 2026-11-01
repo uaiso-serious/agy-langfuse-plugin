@@ -1,0 +1,24 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "langfuse-observability",
+  "displayName": "Langfuse Observability",
+  "version": "1.0.0",
+  "description": "Envia telemetria de sessoes do Antigravity CLI (agy) para o Langfuse (Cloud ou On-Premise) via lifecycle hook Stop.",
+  "logo": "assets/logo.svg",
+  "author": {
+    "name": "uaiso-serious",
+    "url": "https://github.com/uaiso-serious"
+  },
+  "homepage": "https://github.com/uaiso-serious/agy-langfuse-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uaiso-serious/agy-langfuse-plugin.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "langfuse",
+    "observability",
+    "telemetry",
+    "tracing"
+  ]
+}

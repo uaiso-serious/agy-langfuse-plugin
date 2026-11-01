@@ -1,0 +1,12 @@
+{
+  "langfuse-observability": {
+    "enabled": true,
+    "Stop": [
+      {
+        "type": "command",
+        "command": "./scripts/langfuse-hook.sh",
+        "timeout": 15
+      }
+    ]
+  }
+}
